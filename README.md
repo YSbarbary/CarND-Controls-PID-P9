@@ -22,7 +22,8 @@ I have tuned the parameters manually:
 5- I've left Ki to be zero as there seems to be no system bias in the simulator.
 6- I settled on The parameters (0.3, 0.0, 20.0), with a constant throttle 0.3.
 
-[![Video](https://github.com/yasser888/CarND-Controls-PID-P9/blob/master/PID.png](https://youtu.be/X_4WzHLRaRc)
+[![Watch Video](https://github.com/yasser888/CarND-Controls-PID-P9/blob/master/PID.jpg](https://youtu.be/X_4WzHLRaRc)
+
 
 ## Dependencies
 
