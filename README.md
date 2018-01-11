@@ -15,12 +15,12 @@ The diffenrential term (Kd) is proportional to the rate of change of the CTE. It
 
 I have tuned the parameters manually:
 
-1- I Let the car drive in the simulator with all three parameters set to 0. The car quickly drives off the track.
-2- the CTE was about 1. So I initialized the p_error to be 1.0 in the PID controller.
-3- I then increased Kp until the car oscillates a bit, 
-4- then I increased Kd until the car is stable. 
-5- I've left Ki to be zero as there seems to be no system bias in the simulator.
-6- I settled on The parameters (0.3, 0.0, 20.0), with a constant throttle 0.3.
+* 1- I Let the car drive in the simulator with all three parameters set to 0. The car quickly drives off the track.
+* 2- the CTE was about 1. So I initialized the p_error to be 1.0 in the PID controller.
+* 3- I then increased Kp until the car oscillates a bit, 
+* 4- then I increased Kd until the car is stable. 
+* 5- I've left Ki to be zero as there seems to be no system bias in the simulator.
+* 6- I settled on The parameters (0.3, 0.0, 20.0), with a constant throttle 0.3.
 
  (https://youtu.be/X_4WzHLRaRc)
 
