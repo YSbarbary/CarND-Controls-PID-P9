@@ -22,6 +22,8 @@ I have tuned the parameters manually:
 5- I've left Ki to be zero as there seems to be no system bias in the simulator.
 6- I settled on The parameters (0.3, 0.0, 20.0), with a constant throttle 0.3.
 
+[![Video](PID.png](https://youtu.be/X_4WzHLRaRc)
+
 ## Dependencies
 
 * cmake >= 3.5
